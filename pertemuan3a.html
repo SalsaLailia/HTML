@@ -1,0 +1,114 @@
+<html>
+    <head>
+    </head>
+    <style>
+        /* Float */
+        /* div.mycontainer {
+            width: 100%;
+           overflow: auto;
+        }
+        div.mycontainer div{
+            width: 33%;
+            float: left;
+        } */
+         /* div{
+            width: 30%;
+            display: inline-block;
+         } */
+
+         /* Flexbox */
+        /* .mycontainer{
+            display: flex;
+        }
+        .mycontainer > div{
+            width: 30%;
+        } */
+
+        /* grid */
+        .grid-container{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+        .bg-kuning{
+            background-color: #fff4a3;
+        }
+        .text-warna1{
+            color: brown;
+        }
+        #city1{
+            text-align: center;
+        }
+    </style>
+    <body>
+        <!-- <div class="mycontainer">
+            <div style="background-color: #fff4a3;">
+                <h2>London</h2>
+                <p>London adalah ibu kota inggris</p>
+                <p>London memiliki lebih dari 13 juta penduduk.</p>
+            </div>
+            <div style="background-color:#ffc0c7;">
+                <h2>Oslo</h2>
+                <p>Oslo adalah ibu kota norwegia</p>
+                <p>Oslo memiliki lebih dari 600.000 penduduk.</p>
+            </div>
+            <div style="background-color: #d9eee1;">
+                <h2>Roma</h2>
+                <p>Roma adalah ibu kota italia</p>
+                <p>Roma memiliki hampir 3 juta penduduk.</p>
+            </div>
+        </div> -->
+       
+        <!-- inline d-blok -->
+        <!-- <div style="background-color: #fff4a3;">
+            <h2>London</h2>
+            <p>London adalah ibu kota inggris</p>
+            <p>London memiliki lebih dari 13 juta penduduk.</p>
+        </div>
+        <div style="background-color:#ffc0c7;">
+            <h2>Oslo</h2>
+            <p>Oslo adalah ibu kota norwegia</p>
+            <p>Oslo memiliki lebih dari 600.000 penduduk.</p>
+        </div>
+        <div style="background-color: #d9eee1;">
+            <h2>Roma</h2>
+            <p>Roma adalah ibu kota italia</p>
+            <p>Roma memiliki hampir 3 juta penduduk.</p>
+        </div> -->
+        <!-- Flexbox -->
+         <!-- <div class="mycontainer">
+            <div style="background-color: #fff4a3;">
+                <h2>London</h2>
+                <p>London adalah ibu kota inggris</p>
+                <p>London memiliki lebih dari 13 juta penduduk.</p>
+            </div>
+            <div style="background-color:#ffc0c7;">
+                <h2>Oslo</h2>
+                <p>Oslo adalah ibu kota norwegia</p>
+                <p>Oslo memiliki lebih dari 600.000 penduduk.</p>
+            </div>
+            <div style="background-color: #d9eee1;">
+                <h2>Roma</h2>
+                <p>Roma adalah ibu kota italia</p>
+                <p>Roma memiliki hampir 3 juta penduduk.</p>
+            </div>
+        </div> -->
+
+        <div class="grid-container">
+            <div class="bg-kuning text text-warna1">
+                <h2 id="city1">London</h2>
+                <p>London adalah ibu kota inggris</p>
+                <p>London memiliki lebih dari 13 juta penduduk.</p>
+            </div>
+            <div style="background-color:#ffc0c7;" id="city2">
+                <h2>Oslo</h2>
+                <p>Oslo adalah ibu kota norwegia</p>
+                <p>Oslo memiliki lebih dari 600.000 penduduk.</p>
+            </div>
+            <div style="background-color: #d9eee1;">
+                <h2>Roma</h2>
+                <p>Roma adalah ibu kota italia</p>
+                <p>Roma memiliki hampir 3 juta penduduk.</p>
+            </div>
+        </div>
+    </body>
+</html>

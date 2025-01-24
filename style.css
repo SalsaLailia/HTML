@@ -1,0 +1,14 @@
+p{
+    color: tomato;
+}
+body{
+    background-color: powderblue;
+}
+h2 {
+    color: white;
+}
+table, td, th {
+    border: solid 1px;
+    border-collapse: collapse;
+    border-color: white;
+}
